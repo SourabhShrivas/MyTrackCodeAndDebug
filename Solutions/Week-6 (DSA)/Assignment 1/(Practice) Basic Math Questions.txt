@@ -1,0 +1,19 @@
+Question to do:
+
+1. Number of digits
+https://www.naukri.com/code360/problems/number-of-digits_9173
+
+2. Leetcode 7 - Reverse Integer
+https://leetcode.com/problems/reverse-integer/description/
+
+3. Leetcode 9 - Palindrome Number
+https://leetcode.com/problems/palindrome-number/description/
+
+4. Print all Divisors of a number
+https://www.naukri.com/code360/problems/print-all-divisors-of-a-number_1164188?leftPanelTabValue=PROBLEM
+
+5. Sum of all divisors
+https://www.naukri.com/code360/problems/sum-of-all-divisors_8360720
+
+6. Check Prime
+https://www.naukri.com/code360/problems/check-prime_624934
