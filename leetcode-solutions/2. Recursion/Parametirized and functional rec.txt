@@ -1,0 +1,41 @@
+Recursion is a programming technique where a function calls itself to solve a smaller instance of the same problem. Let's break down the concept of recursion using a simple example, factorial calculation, with both parameterized recursion and a recursive function.
+
+Factorial Calculation Example:
+
+Factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n.
+
+Parameterized Recursion:Here's a parameterized recursive function to calculate the factorial:
+
+def factorial_recursive(n, result=1):
+    if n == 0 or n == 1:
+        return result
+    else:
+        return factorial_recursive(n - 1, result * n)
+Now, let's understand how this function works step by step with an example of calculating factorial for n = 5:
+
+Step 1: factorial_recursive(5, 1)
+Step 2: Since n (5) is not 0 or 1, we go to the else block.
+Step 3: The function calls itself with factorial_recursive(4, 5).
+Step 4: Since n (4) is not 0 or 1, we go to the else block again.
+Step 5: The function calls itself with factorial_recursive(3, 20).
+Step 6: This process repeats until factorial_recursive(1, 60) is called.
+Step 7: At this point, n is 1, so it returns 60 (60 * 1).
+Step 8: The previous calls resolve in the reverse order, multiplying their respective n with the accumulated result.
+Step 9: Finally, factorial_recursive(5, 1) returns 120, which is the factorial of 5.
+Function with Recursion:
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+Let's break down how this function works with the same example of calculating factorial for n = 5:
+
+Step 1: factorial(5)
+Step 2: Since n (5) is not 0 or 1, we go to the else block.
+Step 3: The function calls itself with 5 * factorial(4).
+Step 4: This process repeats until factorial(1) is called.
+Step 5: At this point, n is 1, so it returns 1.
+Step 6: The previous calls resolve in the reverse order, multiplying their respective n with the accumulated result.
+Step 7: Finally, factorial(5) returns 120, which is the factorial of 5.
+Both methods achieve the same result, but parameterized recursion allows passing additional parameters to the recursive calls, which can be useful in certain scenarios.

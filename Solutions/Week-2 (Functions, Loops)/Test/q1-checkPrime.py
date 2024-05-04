@@ -14,4 +14,4 @@ def check_Prime(n: int):
         print("No")
 
 
-check_Prime(40)
+check_Prime(7)
