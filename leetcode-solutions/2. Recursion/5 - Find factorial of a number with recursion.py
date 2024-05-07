@@ -16,7 +16,7 @@ Space complexity: O(n)
 """
 """-----------------------------------------"""
 # method 2
-from typing import *
+# from typing import
 
 num = 1
 ans = []
