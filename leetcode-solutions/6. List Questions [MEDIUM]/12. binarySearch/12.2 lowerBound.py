@@ -1,6 +1,4 @@
-"""
-https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
-implement lower bound index
+"""implement lower bound index
 find the smallest index such that arr[index] >= target
 """
 
@@ -22,7 +20,7 @@ def func(arr, target):
 
 
 arr = [4, 6, 7, 7, 7, 8, 10, 10, 14, 19]
-target = 6
+target = 7
 print(func(arr, target))
 
 """

@@ -1,9 +1,3 @@
-"""
-implement upper bound index
-find the index such that arr[index] > target
-"""
-
-
 def func(arr, target):
     n = len(arr)
     l = 0
@@ -23,9 +17,3 @@ def func(arr, target):
 arr = [4, 6, 7, 7, 7, 8, 10, 10, 14, 19]
 target = 6
 print(func(arr, target))
-
-"""
-TC - O(log2N)
-SC - O(1)
-"""
-# print("hello")

@@ -3,7 +3,7 @@ Search Insert Position
 https://leetcode.com/problems/search-insert-position/description/
 """
 
-"""intution - find the lower bound and if LB is = or greater then return 
+"""intution - find the lower bound and if LB is equal to or greater then return 
 either LB index or an index before"""
 from typing import List
 
