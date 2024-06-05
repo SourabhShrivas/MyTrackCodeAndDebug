@@ -11,12 +11,12 @@ class Solution:
 
         while low <= high:
             mid = (low + high) // 2
-            if A[mid] >= X:
+            if A[mid] <= X:
                 lb = mid
                 high = mid - 1
             else:
                 low = mid + 1
-        return lb - 1  # -1 as this is looking for floor from LB
+        return lb  # -1 as this is looking for floor from LB
 
 
 N = 7  # length of array
